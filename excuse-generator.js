@@ -35,4 +35,10 @@ const when = [
   "last week"
 ];
 
+// Random selection from each array
+const randomWho = who[Math.floor(Math.random() * who.length)];
+const randomAction = action[Math.floor(Math.random() * action.length)];
+const randomWhat = what[Math.floor(Math.random() * what.length)];
+const randomWhen = when[Math.floor(Math.random() * when.length)];
+
 console.log("Excuse Generator is ready to run!");
