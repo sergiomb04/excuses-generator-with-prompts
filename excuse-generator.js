@@ -26,4 +26,13 @@ const what = [
   "my important document"
 ];
 
+// Array of time references
+const when = [
+  "today",
+  "yesterday",
+  "this morning",
+  "last night",
+  "last week"
+];
+
 console.log("Excuse Generator is ready to run!");
