@@ -1,48 +1,48 @@
-// Excuse Generator - A random excuse generator for procrastinators
+// Generador de Excusas - Un generador de excusas al azar para procrastinadores
 
-// Array of possible subjects that can start an excuse
+// Array de posibles sujetos que pueden iniciar una excusa
 const who = [
-  "My dog",
-  "My cat",
-  "My boss",
-  "My friend"
+  "Mi perro",
+  "Mi gato",
+  "Mi jefe",
+  "Mi amigo"
 ];
 
-// Array of past tense actions that can be part of an excuse
+// Array de acciones en pasado que pueden ser parte de una excusa
 const action = [
-  "ate",
-  "destroyed",
-  "broke",
-  "stole",
-  "lost"
+  "comió",
+  "destruyó",
+  "rompió",
+  "robó",
+  "perdió"
 ];
 
-// Array of objects or situations related to the excuse
+// Array de objetos o situaciones relacionadas con la excusa
 const what = [
-  "my homework",
-  "my car keys",
-  "my phone",
-  "my laptop",
-  "my important document"
+  "mi tarea",
+  "mis llaves del auto",
+  "mi teléfono",
+  "mi laptop",
+  "mi documento importante"
 ];
 
-// Array of time references
+// Array de referencias de tiempo
 const when = [
-  "today",
-  "yesterday",
-  "this morning",
-  "last night",
-  "last week"
+  "hoy",
+  "ayer",
+  "esta mañana",
+  "anoche",
+  "la semana pasada"
 ];
 
-// Random selection from each array
+// Selección aleatoria de cada array
 const randomWho = who[Math.floor(Math.random() * who.length)];
 const randomAction = action[Math.floor(Math.random() * action.length)];
 const randomWhat = what[Math.floor(Math.random() * what.length)];
 const randomWhen = when[Math.floor(Math.random() * when.length)];
 
-// Build the excuse by concatenating all random values
+// Construir la excusa concatenando todos los valores aleatorios
 const excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
 
-// Print the final excuse to console
+// Imprimir la excusa final en la consola
 console.log(excuse);
