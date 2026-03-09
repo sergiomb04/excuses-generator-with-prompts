@@ -8,4 +8,22 @@ const who = [
   "My friend"
 ];
 
+// Array of past tense actions that can be part of an excuse
+const action = [
+  "ate",
+  "destroyed",
+  "broke",
+  "stole",
+  "lost"
+];
+
+// Array of objects or situations related to the excuse
+const what = [
+  "my homework",
+  "my car keys",
+  "my phone",
+  "my laptop",
+  "my important document"
+];
+
 console.log("Excuse Generator is ready to run!");
