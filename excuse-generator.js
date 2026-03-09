@@ -41,4 +41,8 @@ const randomAction = action[Math.floor(Math.random() * action.length)];
 const randomWhat = what[Math.floor(Math.random() * what.length)];
 const randomWhen = when[Math.floor(Math.random() * when.length)];
 
-console.log("Excuse Generator is ready to run!");
+// Build the excuse by concatenating all random values
+const excuse = `${randomWho} ${randomAction} ${randomWhat} ${randomWhen}`;
+
+// Print the final excuse to console
+console.log(excuse);
